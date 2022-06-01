@@ -1,17 +1,8 @@
-
-
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class helloworld{
-	public static int[] calculate(int times) {
-		int[] result = new int[9];
-		for(int i=0; i < result.length; i++) {
-			result[i] = times * (i + 1);
-		}
-		return result;
+	public static void main(String[] args){
+		long[] arr = {1,2,3,4,5};
+		System.out.println(Arrays.toString(arr[0]));
 	}
-	
-	public static void main(String[] args) {
-		int [] result = calculate(2);
-	}
-}//prince ali
+}
